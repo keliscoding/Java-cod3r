@@ -3,7 +3,7 @@ package fundamentos;
 /**
  * Javadoc é gerado usando "/** + enter"
  * @author zam0k
- * 	@since JDK 1.0
+ * @since JDK 1.0
  */
 public class PrimeiroPrograma {
 	/**
