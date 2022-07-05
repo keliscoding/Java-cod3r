@@ -13,6 +13,7 @@ public class DesafioDiaSemana {
 		System.out.println("Digite um dia da semana: ");
 		String answer = input.next();
 		
+		//o melhor é usar equalsIgnoreCase
 		if("domingo".equals(answer.toLowerCase())) {
 			System.out.println("1");
 		} else if("segunda".equals(answer.toLowerCase())) {
