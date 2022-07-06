@@ -14,9 +14,11 @@ public class Data {
 	}
 	
 	Data() {
-		this.dia = 1;
-		this.mes = 1;
-		this.ano = 1970;
+//		this.dia = 1;
+//		this.mes = 1;
+//		this.ano = 1970;
+		//isso aqui chama o outro construtor
+		this(1, 1, 1970);
 	}
 	
 	
