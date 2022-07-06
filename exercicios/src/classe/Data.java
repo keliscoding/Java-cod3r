@@ -6,6 +6,20 @@ public class Data {
 	int mes;
 	int ano;
 	
+	
+	Data(int dia, int mes, int ano) {
+		this.dia = dia;
+		this.mes = mes;
+		this.ano = ano;
+	}
+	
+	Data() {
+		this.dia = 1;
+		this.mes = 1;
+		this.ano = 1970;
+	}
+	
+	
 	String obterDataFormatada() {	
 		String diaFormatado = String.valueOf(dia);
 		String mesFormatado = String.valueOf(mes);
