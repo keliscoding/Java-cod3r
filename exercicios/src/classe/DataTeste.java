@@ -14,5 +14,8 @@ public class DataTeste {
 		d2.dia = 15;
 		d2.mes = 10;
 		d2.ano = 1997;
+		
+		System.out.println(d1.obterDataFormatada());
+		System.out.println(d2.obterDataFormatada());
 	}
 }
