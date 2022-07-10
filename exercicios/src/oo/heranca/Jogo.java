@@ -2,13 +2,13 @@ package oo.heranca;
 
 public class Jogo {
 	public static void main(String[] args) {
-		Jogador jogador1 = new Monstro();
-		jogador1.x = 10;
-		jogador1.y = 10;
+		Jogador monstro = new Monstro();
+		monstro.x = 10;
+		monstro.y = 10;
 		
-		Jogador jogador2 = new Heroi();
-		jogador2.x = 10;
-		jogador2.y = 11;
+		Jogador heroi = new Heroi();
+		heroi.x = 10;
+		heroi.y = 11;
 		
 //		jogador1.andar(Direcao.NORTE);
 //		jogador1.andar(Direcao.LESTE);
@@ -16,13 +16,13 @@ public class Jogo {
 //		jogador1.andar(Direcao.LESTE);
 //		System.out.println(jogador1.x + " " + jogador1.y);
 		
-		System.out.println(jogador1.vida);
-		System.out.println(jogador2.vida);
+		System.out.println(monstro.vida);
+		System.out.println(heroi.vida);
 		
-		jogador1.atacar(jogador2);
+		heroi.atacar(monstro);
 		
-		System.out.println(jogador1.vida);
-		System.out.println(jogador2.vida);
+		System.out.println("Monstro tem => " + monstro.vida);
+		System.out.println("Heroi tem => " + heroi.vida);
 			
 	}
 }
