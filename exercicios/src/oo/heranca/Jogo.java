@@ -6,9 +6,7 @@ public class Jogo {
 		monstro.x = 10;
 		monstro.y = 10;
 		
-		Jogador heroi = new Heroi();
-		heroi.x = 10;
-		heroi.y = 11;
+		Jogador heroi = new Heroi(10, 11);
 		
 //		jogador1.andar(Direcao.NORTE);
 //		jogador1.andar(Direcao.LESTE);
