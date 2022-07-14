@@ -1,8 +1,8 @@
 package excecao;
 
 public class Aluno {
-	String nome;
-	double media;
+	public final String nome;
+	public final double media;
 	
 	public Aluno(String nome, double media) {
 		this.nome = nome;
